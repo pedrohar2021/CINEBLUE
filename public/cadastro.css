@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(/img/fundo2.jpg);
+    background-image: url(https://i1.wp.com/thefieldya.com/wp-content/uploads/2021/04/AdobeStock_414399400.jpeg?w=2100&ssl=1);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -22,17 +22,21 @@ body {
 
 }
 
+header {
+    background-color: rgb(1,6,9); 
+}
+
 nav {
-    background-color: rgb(17,140,165);
-    position: fixed;
+    background-color: rgb(1,6,9); 
     width: 100%;
     z-index: 999;
 }
 
 
+
 nav ul{
-    display: flex;
     justify-content: center;
+    display: flex;
     align-items: center;
     list-style: none;
 }
@@ -45,19 +49,25 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 1.1rem;
-}
-
-header{
-    width: 100%;
+    font-size: .9rem;
 }
 
 header img{
     width: 100%;
-    margin-top: 6.3rem;
 }
 
+img#pokedex{
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
 
+#branco {
+    height: .4rem;
+    background-color: white;
+}
 
 
 main {
@@ -67,24 +77,22 @@ main {
 }
 
 img#pokedex{
-    width: 21rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 80px auto 0 auto; 
+    margin: 0 auto 0 auto; 
 
 }
 
 h1{
-    text-align: center;
-    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
     color: white;
-    
+    font-size: 1.3rem;
 }
 
-img#pokedexx {
-    margin: 0 50px 0 0;
-}
 
 
 a{
@@ -106,7 +114,7 @@ section#cadastro h2{
 
 section#cadastro form {
     width: 100%;
-    margin-top: 40px;
+    margin: 100px 0 70px 0
 
 }
 
@@ -153,7 +161,7 @@ section#cadastro form button:hover {
 
 
 footer{
-    background-color:rgb(17,140,165);
+    background-color:rgb(1,6,9); 
     padding: 0.6rem;
     display: flex;
     flex-wrap: wrap;

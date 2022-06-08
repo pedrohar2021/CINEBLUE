@@ -9,34 +9,48 @@
     <title>GARK-Detalhes</title>
   </head>
 
-    <header>
-      <nav>
+  <header>
+    <nav>
+        
         <ul>
-            <li> <a href="/">FILMES EM CARTAZ</a></li>
+            <li> <a href="/">HOME</a></li>
             <li> <a href="/cadastro">CADASTRO</a></li>
         </ul>
-        
-      </nav>
-    </header>
+    
 
-    <section id="faixa-titulo">
-      <div>DETALHES...</div>
+    </nav>
+    
+    <section id="escrita">
+        <img id="pokedex" src="/img/cineblue.png" alt="">
     </section>
 
-    <main>
+<div id="branco">
 
+</div>
+
+
+
+</header>
+
+<main>
+  <section id="faixa-titulo">
+    <div>DETALHES</div>
+  </section>
+  
       <section id="detalhes-produtos">
         <div class="imagem-produto">
           <img src= "<%= detalhesSelecionado.imagem %>" alt="imagem-produto" />
         </div>
 
-          <div class="infos-produto">
-            <h2 id="titulo"><%= detalhesSelecionado.nome %></h2>
-            <p class="infos"><%= detalhesSelecionado.tipo %></p>
-            <p class="infos"><%= detalhesSelecionado.descricao %></p>
-            
-          </div>
       </section>
+
+      <section>
+      <div class="infos-produto">
+        <h2 id="titulo"><%= detalhesSelecionado.nome %></h2>
+        <p class="infos"><%= detalhesSelecionado.tipo %></p>
+        <p class="infos"><%= detalhesSelecionado.descricao %></p>
+      </section>
+      </div>
     </main>
     <footer>
 

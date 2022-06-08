@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(/img/fundo2.jpg);
+    background-image: url(https://i1.wp.com/thefieldya.com/wp-content/uploads/2021/04/AdobeStock_414399400.jpeg?w=2100&ssl=1);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,21 +19,24 @@ body {
     height: 100vh;
     width: 100%;
 
+
 }
 
 h1{
     align-items: center;
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto 8rem auto;
     justify-content: center;
     color: white;
     font-size: 1.3rem;
 }
 
+header {
+    background-color: rgb(1,6,9); 
+}
 
 nav {
-    background-color: rgb(17,140,165);
-
+    background-color: rgb(1,6,9); 
     width: 100%;
     z-index: 999;
 }
@@ -55,23 +58,25 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: .9rem;
 }
 
 header img{
     width: 100%;
-    margin-top: 6.3rem;
 }
 
 img#pokedex{
-    width: 21rem;
+    width: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px auto 30px auto; 
-
+    margin: 0 auto;
 }
 
+#branco {
+    height: .4rem;
+    background-color: white;
+}
 
 main {
     /* margin: 0 10rem 0 10rem; */
@@ -92,9 +97,9 @@ section#cards h2 {
 }
 
 section#cards div.card{
-border: solid 4px rgb(17,140,165);
+border: solid 4px white;
 border-radius: 10px;
-background-color: rgba(255, 255, 255, 0.669);
+background-color: rgb(1,6,9);;
 width: 15rem;
 box-shadow: 5px 5px 5px 5px #00000015;
 margin: 1rem 0 1rem 0;
@@ -116,7 +121,7 @@ section#cards div.card a#apagar {
     margin: 0 auto 20px auto ;
     justify-content: center;
     font-size: 1rem;
-    background-color: rgb(17,140,165);
+    background-color: white;
     color: white;
     cursor: pointer;
     transition: all .3s ease-in-out;
@@ -133,14 +138,11 @@ section#cards div.card a#apagar:hover{
 
 
 section#cards div.card img{
-    transition: all 0.5s ease-in-out;
     width: 100%;
+    border-radius: 6px;
 }
 
-section#cards div.card img:hover{
-    transform: scale(1.3);
 
-}
 
 section#cards div.card h3{
     margin: 1rem 0;
@@ -171,7 +173,7 @@ main div {
 
 
 footer{
-    background-color:rgb(17,140,165);
+    background-color:rgb(1,6,9); 
     padding: 0.6rem;
     display: flex;
     flex-wrap: wrap;
