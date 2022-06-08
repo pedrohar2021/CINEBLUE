@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="/detalhes.css" />
+    <title>GARK-Detalhes</title>
+  </head>
+
+    <header>
+      <nav>
+        <ul>
+            <li> <a href="/">FILMES EM CARTAZ</a></li>
+            <li> <a href="/cadastro">CADASTRO</a></li>
+        </ul>
+        
+      </nav>
+    </header>
+
+    <section id="faixa-titulo">
+      <div>DETALHES...</div>
+    </section>
+
+    <main>
+
+      <section id="detalhes-produtos">
+        <div class="imagem-produto">
+          <img src= "<%= detalhesSelecionado.imagem %>" alt="imagem-produto" />
+        </div>
+
+          <div class="infos-produto">
+            <h2 id="titulo"><%= detalhesSelecionado.nome %></h2>
+            <p class="infos"><%= detalhesSelecionado.tipo %></p>
+            <p class="infos"><%= detalhesSelecionado.descricao %></p>
+            
+          </div>
+      </section>
+    </main>
+    <footer>
+
+        <p>Todos os direitos reservados @pedroreezende | Dados retirados de <a target="_blank" href="https://www.pokemon.com/br/pokedex/">Pokedex</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>

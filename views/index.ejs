@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokédex</title>
+    <link rel="icon"  type="image/jpg"  href="https://i.pinimg.com/originals/e2/7b/7d/e27b7d18b01ae4765133f4aec4aaf61d.png" />
+</head>
+<body>
+
+
+    <header>
+    <nav>
+
+    <ul>
+        <li> <a href="/">FILMES EM CARTAZ</a></li>
+        <li> <a href="/cadastro">CADASTRO</a></li>
+    </ul>
+    
+
+    </nav>
+
+    
+    <section id="escrita">
+        <img id="pokedex" src="https://pokedex.sleduardo.dev/img/logo.svg" alt="">
+    </section>
+    
+    
+    
+</header>
+
+<main>
+
+    <section id="cards">
+        
+            
+            <% meusFilmes.forEach((filmes) => { %>
+                <div class="card"> <a href="/detalhes/<%= filmes.id %>">
+                    <img src="<%= filmes.imagem %>" alt="">
+                    <h3><%= filmes.nome %></h3>
+                    <p id="tipo"><%= filmes.tipo %></p>
+                </a></div>
+                <% }) %>
+            </section>
+            
+            <% if(mensagem != ""){ %>
+                <section id="mensagem">
+                    <span id="close">&times;</span><p> <%=mensagem %> </p> <span id="close2">&times;</span>
+                </section>
+                <% } %>
+
+
+            
+        
+    </main>
+
+    <footer>
+
+        <p>Todos os direitos reservados @pedroreezende | Dados retirados de <a target="_blank" href="https://www.pokemon.com/br/pokedex/">Pokedex</a></p>
+    </footer>
+    
+<script src="/script.js"></script>
+</body>
+</html>
