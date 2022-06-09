@@ -17,7 +17,7 @@ const meusFilmes = [
     },
     {
         id: 2,
-        nome: "SONIC 2:O Filme",
+        nome: "SONIC 2:O FILME",
         descricao: "O ouriço favorito de todo o mundo está de volta para uma incrível aventura em SONIC 2 – O FILME. Após ficar em Green Hills, Sonic quer provar que tem o necessário para ser um herói de verdade. Seu teste virá com o retorno do Dr. Robotnik, dessa vez com um novo parceiro, Knuckles, à procura de uma esmeralda com o poder de destruir civilizações. Sonic se junta ao seu próprio coadjuvante, Tails, e juntos embarcarão em uma jornada pelo mundo para encontrar a esmeralda, antes que ela caia em mãos erradas.",
         tipo: "Animação",
         imagem: "/img/sonic.jpg"
@@ -31,7 +31,7 @@ const meusFilmes = [
     },
     {
         id: 4,
-        nome: "Doutor Estranho No Multiverso da Loucura",
+        nome: "DOUTOR ESTRANHO NO MULTIVERSO DA LOUCURA",
         descricao: "Em Doutor Estranho no Multiverso da Loucura da Marvel Studios, o Multiverso foi aberto e expande seus limites para mais longe do que nunca. Embarque em uma viagem para o desconhecido com o Doutor Estranho que, com a ajuda de aliados místicos antigos e novos, atravessa as perigosas realidades alternativas e alucinantes do Multiverso para enfrentar um novo adversário misterioso.",
         tipo: "Fantasia/Aventura",
         imagem: "/img/doutorestranho.jpg"

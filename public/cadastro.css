@@ -126,7 +126,7 @@ section#cadastro form input{
     border: solid 2px rgb(197,197,197);
     margin-bottom: 1.5rem;
     margin-top: 0.3rem;
-    border:solid 3px rgb(17,140,165);
+    border:solid 3px rgb(1,6,9); 
 }
 
 
@@ -147,16 +147,16 @@ section#cadastro form button {
     justify-content: center;
     font-size: 3rem;
     background-color: #fff;
-    border: solid 3px rgb(17,140,165);
+    border: solid 3px rgb(1,6,9); 
     border-radius: 50%;
-    color: rgb(17,140,165)d;
+    color: rgb(1,6,9); 
     cursor: pointer;
     transition: all .3s ease-in-out;
 
 }
 
 section#cadastro form button:hover {
-    background-color: rgb(17,140,165);
+    background-color: rgb(1,6,9); 
     color: #fff;
 
 }

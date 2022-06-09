@@ -79,6 +79,15 @@ img#pokedex{
   background-color: white;
 }
 
+h1{
+  align-items: center;
+  display: flex;
+  margin: 3rem auto 3rem auto;
+  justify-content: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
 
 #detalhes-produtos {
     display: flex;
@@ -100,21 +109,26 @@ img#pokedex{
     margin-bottom: 1rem;
   }
   .imagem-produto img{
-    width: 17rem;
+    width: 15rem;
     border-radius: 6px;
     border: solid 4px white;
   }
   
-  .infos-produto {
+  #infos{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1.5rem;
-    margin-left: 7rem;;
+    margin-left: 7rem;
+    margin-right: 7rem;
     margin-top: 2rem;
     flex: 1;
+    color: white;
+    text-align: center;
   }
   
   p.infos{
+    text-align: center;
     font-size: 1.2rem;
   }
 
