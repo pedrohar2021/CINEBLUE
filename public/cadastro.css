@@ -129,12 +129,15 @@ section#cadastro form input{
     border:solid 3px rgb(17,140,165);
 }
 
+
+
 section#cadastro form label {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
 
 
 }
+
 
 section#cadastro form button {
     height: 65px;
