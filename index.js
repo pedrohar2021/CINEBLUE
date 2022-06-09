@@ -70,7 +70,7 @@ app.post("/create", (req, res) => {
     const filmes = req.body;
     filmes.id = meusFilmes.length + 1
     meusFilmes.push(filmes)
-    mensagem = "POKEMON CADASTRADO!"
+    mensagem = "FILME CADASTRADO!"
     res.redirect("/#cards")
 });
 
