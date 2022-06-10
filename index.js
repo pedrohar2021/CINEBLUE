@@ -35,6 +35,13 @@ const meusFilmes = [
         descricao: "Em Doutor Estranho no Multiverso da Loucura da Marvel Studios, o Multiverso foi aberto e expande seus limites para mais longe do que nunca. Embarque em uma viagem para o desconhecido com o Doutor Estranho que, com a ajuda de aliados místicos antigos e novos, atravessa as perigosas realidades alternativas e alucinantes do Multiverso para enfrentar um novo adversário misterioso.",
         tipo: "Fantasia/Aventura",
         imagem: "/img/doutorestranho.jpg"
+    },
+    {
+        id: 5,
+        nome: "D.P.A. 3 - UMA AVENTURA NO FIM DO MUNDO",
+        descricao: "Pippo, Bento e Sol se vêem em apuros quando Severino encontra um objeto em meio aos escombros de um avião. O que parecia uma inofensiva relíquia era, na verdade, uma das faces do ‘Medalhão de Uzur’, responsável por controlar e manipular toda a magia existente no mundo. Assim que coloca o artefato no pescoço, o porteiro tão querido começa a se transformar em uma figura malígna.",
+        tipo: "Aventura",
+        imagem: "https://d128j1v7l5zqm9.cloudfront.net/vibezz_937993687.jpg"
     }
 
 ];
